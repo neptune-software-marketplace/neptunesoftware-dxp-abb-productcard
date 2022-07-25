@@ -1,0 +1,47 @@
+{
+	"id": "8776CEF5-EC0B-ED11-B47A-000D3AB2359F",
+	"createdAt": "2022-07-25T07:39:49.260Z",
+	"createdBy": "kristin.eliassen@neptune-software.com",
+	"git": {
+		"targetServers": [],
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-productcard",
+		"testServers": []
+	},
+	"name": "neptunesoftware-dxp-abb-productcard",
+	"description": null,
+	"ver": "22.7.25.741",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "83D345BE-F65F-4E8A-BE8A-3474F9F5D25A",
+			"ver": "22.7.25.940",
+			"application": "neptbb_productcard",
+			"title": "WEBSHOP",
+			"description": "Product Card"
+		}
+	],
+	"api": [],
+	"odataMock": [],
+	"odataSource": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"wf_definition": [],
+	"department": [],
+	"script_scheduler": [],
+	"connector": []
+}

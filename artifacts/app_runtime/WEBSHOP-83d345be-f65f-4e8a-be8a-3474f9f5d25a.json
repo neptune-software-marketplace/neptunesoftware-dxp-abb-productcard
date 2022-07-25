@@ -1,0 +1,378 @@
+{
+	"id": "83d345be-f65f-4e8a-be8a-3474f9f5d25a",
+	"createdAt": "2022-02-04T15:46:30.990Z",
+	"updatedAt": "2022-07-25T07:40:13.800Z",
+	"createdBy": "luuk.wosten@neptune-software.com",
+	"changedBy": "kristin.eliassen@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "a59023fc-ded8-42af-be13-8939ce0c18d7",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "c9b0b7fd-1848-4761-d6e2-0ae518469b6d",
+					"fieldName": "oApp",
+					"fieldParent": "a59023fc-ded8-42af-be13-8939ce0c18d7",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "0d5a48a7-f919-4c20-fd24-9a6b150866d4",
+							"fieldName": "oPage",
+							"fieldParent": "c9b0b7fd-1848-4761-d6e2-0ae518469b6d",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "83ce9205-4f76-4449-d7dd-7ace6e6b7f9a",
+									"fieldName": "oCard",
+									"fieldParent": "0d5a48a7-f919-4c20-fd24-9a6b150866d4",
+									"fieldType": "sap.f.Card",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "25.75rem",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiSmallMargin",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "b868089a-e3ca-4eee-9c48-e355720354c3",
+											"fieldName": "oHeader",
+											"fieldParent": "83ce9205-4f76-4449-d7dd-7ace6e6b7f9a",
+											"fieldType": "sap.f.cards.Header",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "title",
+													"grouping": "Properties",
+													"value": "Product Name",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "subtitle",
+													"grouping": "Properties",
+													"value": "Description",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "iconSrc",
+													"grouping": "Properties",
+													"value": "sap-icon://fa-brands/product-hunt",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "iconcolor",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "0b08671b-ab85-40fe-c8de-19d20191584c",
+											"fieldName": "oVBox",
+											"fieldParent": "83ce9205-4f76-4449-d7dd-7ace6e6b7f9a",
+											"fieldType": "sap.m.VBox",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "renderType",
+													"grouping": "Properties",
+													"value": "Bare",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "justifyContent",
+													"grouping": "Properties",
+													"value": "SpaceBetween",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "fitContainer",
+													"grouping": "Properties",
+													"value": "true",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "alignItems",
+													"grouping": "Properties",
+													"value": "Stretch",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "f2ad3b30-3f8d-4779-e0e6-ad4bc0269359",
+													"fieldName": "oText",
+													"fieldParent": "0b08671b-ab85-40fe-c8de-19d20191584c",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "textDirection",
+															"grouping": "Properties",
+															"value": "Inherit",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "textAlign",
+															"grouping": "Properties",
+															"value": "Begin",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Longer Description",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiSmallMargin",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "30298569-f1c4-4116-9d68-a4c07a049a3a",
+													"fieldName": "oToolbar",
+													"fieldParent": "0b08671b-ab85-40fe-c8de-19d20191584c",
+													"fieldType": "sap.m.Toolbar",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "design",
+															"grouping": "Properties",
+															"value": "Transparent",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "position",
+															"grouping": "Parent",
+															"value": "InfoToolbar",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "232a6a5d-e92d-4571-fbda-b14cc0475194",
+															"fieldName": "oIcon",
+															"fieldParent": "30298569-f1c4-4116-9d68-a4c07a049a3a",
+															"fieldType": "sap.ui.core.Icon",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "src",
+																	"grouping": "Properties",
+																	"value": "sap-icon://performance",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "0bab6d3a-bf01-4752-be34-7747caabcacf",
+															"fieldName": "oLabel",
+															"fieldParent": "30298569-f1c4-4116-9d68-a4c07a049a3a",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Icon Desc",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "c1fc6207-4bc7-4249-eea9-67998b7a081b",
+															"fieldName": "oIcon1",
+															"fieldParent": "30298569-f1c4-4116-9d68-a4c07a049a3a",
+															"fieldType": "sap.ui.core.Icon",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "src",
+																	"grouping": "Properties",
+																	"value": "sap-icon://fob-watch",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "0775e3a2-53d9-4497-ba15-cae95edfecbf",
+															"fieldName": "oLabel1",
+															"fieldParent": "30298569-f1c4-4116-9d68-a4c07a049a3a",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Time Desc.",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "eb387f4f-b9b5-42ba-c208-19cc6da7c693",
+															"fieldName": "oToolbarSpacer",
+															"fieldParent": "30298569-f1c4-4116-9d68-a4c07a049a3a",
+															"fieldType": "sap.m.ToolbarSpacer",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": []
+														},
+														{
+															"fieldNo": "cd83a337-49b2-42db-9f0c-b32c9de7f171",
+															"fieldName": "ActionButton",
+															"fieldParent": "30298569-f1c4-4116-9d68-a4c07a049a3a",
+															"fieldType": "sap.m.Button",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Transparent",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Action",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": []
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"ver": "22.7.25.940",
+	"application": "neptbb_productcard",
+	"title": "WEBSHOP",
+	"description": "Product Card",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": true,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "C",
+	"ui5_m": true,
+	"ui5_f": true,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "1.71",
+	"ui5_language": null,
+	"cus_theme": "",
+	"css": [
+		"==OBJECT STRING==",
+		"",
+		""
+	],
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"apis": []
+}
